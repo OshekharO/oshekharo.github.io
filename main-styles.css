@@ -121,42 +121,26 @@ img {
   font-size: 0
 }
 
-.navmenu .navbar-buttons {
-  text-align: center;
-  min-width: 170px
-}
-
-.section-btn a.btn:not(.btn-form) {
-  border-radius: 5px
-}
-
 .btn {
   font-weight: 600;
   border-width: 1px;
   font-style: normal;
-  margin: .6rem .6rem;
+  margin: .6rem;
   white-space: normal;
   transition: all .2s ease-in-out;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  word-break: break-word
+  word-break: break-word;
+  padding: .6rem 1.2rem;
+  border-radius: 4px
 }
 
-nav .section-btn {
-  margin-left: 0;
-  margin-right: 0
-}
-
-.btn .icon-font {
+.btn .iconfont {
   order: 1;
   cursor: pointer;
   margin-left: .5rem;
   vertical-align: sub
-}
-
-.section-btn a.btn:not(.btn-form) {
-  border-radius: 5px
 }
 
 .index-fullscreen {
