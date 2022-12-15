@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'IconFonts';
+  src: url('assets/fonts/IconFonts.woff') format('woff'),
+    url('assets/fonts/IconFonts.svg#IconFonts') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*=icon-]:before {
+  display: inline-block;
+  font-family: IconFonts;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-email:before {
+  content: '\0041'
+}
+
+.icon-telegram:before {
+  content: '\0042'
+}
+
+.icon-github:before {
+  content: '\0043'
+}
+
+.icon-linkedin:before {
+  content: '\0044';
+}
+
+.icon-close:before {
+  content: '\0045'
+}
+
+.icon-arrow-left:before {
+  position: relative;
+  float: right;
+  content: '\0046'
+}
+
+.icon-arrow-right:before {
+  position: relative;
+  float: right;
+  content: '\0047'
+}
+
+.icon-fullscreen:before {
+  position: relative;
+  float: right;
+  content: '\0048'
+}
+
+.icon-chevron-down:before {
+  vertical-align: middle;
+  content: '\0049';
+}
+
+.icon-microsoft-azure:before {
+  content: '\004a';
+}
+
+.icon-code-tags:before {
+  content: '\004b';
+}
+
+.icon-application-brackets-outline:before {
+  content: '\004c';
+}
+
+.icon-hammer-wrench:before {
+  content: '\004d';
+}
+
+.icon-translate:before {
+  content: '\004e';
+}
+
+.icon-git:before {
+  content: '\004f';
+}
+
+.icon-google-cloud:before {
+  content: '\0050';
+}
+
+.icon-language-css3:before {
+  content: '\0051';
+}
+
+.icon-language-html5:before {
+  content: '\0052';
+}
+
+.icon-language-javascript:before {
+  content: '\0053';
+}
+
+.icon-language-python:before {
+  content: '\0054';
+}
+
+.icon-bootstrap:before {
+  content: '\0055';
+}
+
+.icon-OpenCV:before {
+  content: '\0056';
+}
+
+.icon-numpy:before {
+  content: '\0057';
+}
+
+.icon-tensorflow:before {
+  content: '\0058';
+}
+
+.icon-figma:before {
+  content: '\0059';
+}
+
+.icon-a1:before {
+  content: '\005a';
+}
+
+.icon-c1:before {
+  content: '\0061';
+}
+
+.icon-c2:before {
+  content: '\0062';
+}
+
+.icon-photoshop:before {
+  content: '\0063';
+}
