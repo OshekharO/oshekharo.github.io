@@ -1,15 +1,15 @@
-## 🌟 Daksh Portfolio
+## 🌟 vCard Portfolio
 
-My Personal Portfolio Forked From Daksh P. Jain aka Daksh777
+My Personal Portfolio Forked From vCard
 
 ## 🤗 Meet Me :
 
 • 😪 check you did all things perfectly before contacting [ Warning ] <br>
 
-• For any Support About Script contact [@OshekherO](https://t.me/OshekherO) at Telegram <br>
+• For any Support contact [@OshekherO](https://t.me/OshekherO) at Telegram <br>
 
 ---
-<h4 align='center'>© 2022 ツ ѕнєкнєя</h4>
+<h4 align='center'>© 2023 ツ ѕнєкнєя</h4>
 
 <!-- DO NOT REMOVE THIS CREDIT 🤬 🤬 -->
 
