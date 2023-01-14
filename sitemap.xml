@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://saksham.thedev.id/</loc>
@@ -17,6 +15,14 @@
   <lastmod>2023-01-14T13:49:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://saksham.thedev.id/awesome-entertainment/</loc>
+  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Movie_Search_App/</loc>
+  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
