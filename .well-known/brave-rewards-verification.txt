@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: thedev.id
+Token: 6daded91ca36d64c81521ad8aa2ad2c3dd0772f06a384303a68b35e636af564c
