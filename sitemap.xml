@@ -6,28 +6,47 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://saksham.thedev.id</loc>
-  <lastmod>2023-01-14T14:26:34+00:00</lastmod>
+  <loc>http://saksham.thedev.id/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://saksham.thedev.id/Reverse-Engineering/</loc>
-  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
+  <loc>http://saksham.thedev.id/Saksham_Shekher.pdf</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://saksham.thedev.id/Reverse-Engineering/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Webvium-Search/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Link-Crawler/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/NewsFeedSwitcher/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/miru-warehouse/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Emoji-Browser/</loc>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://saksham.thedev.id/awesome-entertainment/</loc>
-  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://saksham.thedev.id/Movie_Search_App/</loc>
-  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://saksham.thedev.id/Coming-Soon/</loc>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://saksham.thedev.id/ebutuoy/</loc>
-  <lastmod>2023-01-14T13:49:07+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://saksham.thedev.id/Begonia/</loc>
+  <priority>0.70</priority>
 </url>
 </urlset>
