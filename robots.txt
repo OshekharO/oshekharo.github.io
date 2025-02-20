@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /assets/
 
 Sitemap: https://saksham.thedev.id/sitemap.xml
