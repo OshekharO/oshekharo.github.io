@@ -1,52 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://saksham.thedev.id/</loc>
+  <loc>https://saksham.thedev.id/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://saksham.thedev.id/Saksham_Shekher.pdf</loc>
+  <loc>https://saksham.thedev.id/Begonia/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Reverse-Engineering/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://saksham.thedev.id/Reverse-Engineering/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Webvium-Search/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://saksham.thedev.id/Link-Crawler/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://saksham.thedev.id/NewsFeedSwitcher/</loc>
+  <loc>https://saksham.thedev.id/Vulnerability-Scanner/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Social-Search/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://saksham.thedev.id/Docker-On-Android/</loc>
+  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/miru-warehouse/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Emoji-Browser/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/awesome-entertainment/</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Coming-Soon/</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Begonia/</loc>
-  <priority>0.70</priority>
 </url>
 </urlset>
