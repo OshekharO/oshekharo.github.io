@@ -221,23 +221,36 @@
 
       <!-- CONTACT -->
       <article class="contact" data-page="contact">
-        <header><h2 class="h2 article-title">Contact</h2></header>
-        <section class="contact-form">
-          <h3 class="h3 form-title">Contact Form</h3>
-          <form action="https://formspree.io/f/mrgvgrrk" method="POST" class="form" data-form>
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-            <input type="hidden" name="_next" value="https://saksham.thedev.id/thank-you.html">
-          </form>
-        </section>
-      </article>
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+  
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+    
+    <form action="https://formspree.io/f/mrgvgrrk" method="POST" class="form" data-form>
+      
+      <!-- Name and Email Inputs -->
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+      
+      <!-- Message Textarea -->
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      
+      <!-- Submit Button -->
+      <button class="form-btn" type="submit" data-form-btn disabled>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+      
+      <!-- Formspree Redirect -->
+      <input type="hidden" name="_next" value="https://saksham.thedev.id/thank-you.html">
+      
+    </form>
+  </section>
+</article>
 
     </div>
   </main>
