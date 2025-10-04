@@ -1,6 +1,48 @@
 'use strict';
 
 // --------------------
+//   Github Project
+// --------------------
+const githubUsername = "OshekharO";
+const projectsList = document.getElementById("projects-list");
+
+fetch(`https://api.github.com/users/${githubUsername}/repos`)
+  .then(res => res.json())
+  .then(repos => {
+    // Filter repos with stargazers_count or watchers_count > 10
+    const popularRepos = repos.filter(repo => repo.stargazers_count > 10 || repo.watchers_count > 10);
+
+    projectsList.innerHTML = "";
+
+    if (popularRepos.length === 0) {
+      projectsList.innerHTML = '<li>No popular projects to display.</li>';
+      return;
+    }
+
+    popularRepos.forEach(repo => {
+      const li = document.createElement("li");
+      li.className = "project-item active";
+
+      li.innerHTML = `
+        <a href="${repo.html_url}" target="_blank" rel="noopener">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="https://opengraph.githubassets.com/1/${githubUsername}/${repo.name}" alt="${repo.name}" loading="lazy" />
+          </figure>
+          <h3 class="project-title">${repo.name}</h3>
+          <p class="project-category">${repo.language || "Unknown"}</p>
+          <p class="project-stars">⭐ ${repo.stargazers_count} | 👀 ${repo.watchers_count}</p>
+        </a>
+      `;
+      projectsList.appendChild(li);
+    });
+  })
+  .catch(err => {
+    console.error("GitHub API Error:", err);
+    projectsList.innerHTML = '<li>Failed to load projects.</li>';
+  });
+
+// --------------------
 // Sidebar toggle
 // --------------------
 const elementToggleFunc = (elem) => elem.classList.toggle("active");
