@@ -10,7 +10,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
   .then(res => res.json())
   .then(repos => {
     // Filter repos with stargazers_count or watchers_count > 10
-    const popularRepos = repos.filter(repo => repo.stargazers_count > 10 || repo.watchers_count > 10);
+    const popularRepos = repos.filter(repo => repo.stargazers_count > 10);
 
     projectsList.innerHTML = "";
 
