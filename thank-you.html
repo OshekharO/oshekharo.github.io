@@ -1,54 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-            color: #333;
-        }
-        .container {
-            background-color: #fff;
-            padding: 40px 60px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        p {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-        a {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 10px 25px;
-            background-color: #4CAF50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background-color 0.3s;
-        }
-        a:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f4f4f9; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; }
+
+    /* Container */
+    .container {
+      background: #fff;
+      padding: 50px 80px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 90%;
+      animation: fadeInUp 1s ease;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Icon animation */
+    .checkmark {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px;
+      background: #4CAF50;
+      color: white;
+      font-size: 40px;
+      animation: popIn 0.5s ease forwards;
+    }
+    @keyframes popIn {
+      0% { transform: scale(0); }
+      100% { transform: scale(1); }
+    }
+
+    h1 { color: #333; font-size: 28px; margin-bottom: 15px; }
+    p { font-size: 18px; color: #555; margin-bottom: 25px; }
+
+    a {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #4CAF50;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    a:hover { background: #45a049; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Thank You!</h1>
-        <p>Your message has been successfully sent.</p>
-        <a href="index.html">Go Back Home</a>
-    </div>
+
+  <div class="container">
+    <div class="checkmark">✓</div>
+    <h1>Thank You!</h1>
+    <p>Your message has been successfully sent.<br>We will get back to you shortly.</p>
+    <a href="index.html">Go Back Home</a>
+  </div>
+
 </body>
 </html>
