@@ -6,7 +6,7 @@
 const githubUsername = "OshekharO";
 const projectsList = document.getElementById("projects-list");
 
-fetch(`https://api.github.com/users/${githubUsername}/repos`)
+fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated&per_page=100`)
   .then(res => res.json())
   .then(repos => {
     // Filter repos with stargazers_count or watchers_count > 10
@@ -20,6 +20,8 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
     }
 
     popularRepos.forEach(repo => {
+      if (repo.fork) return;
+      
       const li = document.createElement("li");
       li.className = "project-item active";
 
@@ -31,7 +33,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
           </figure>
           <h3 class="project-title">${repo.name}</h3>
           <p class="project-category">${repo.language || "Unknown"}</p>
-          <p class="project-stars">⭐ ${repo.stargazers_count} | 👀 ${repo.watchers_count}</p>
+          <p class="project-stars">⭐ ${repo.stargazers_count} |  🍴 ${repo.forks_count}</p>
         </a>
       `;
       projectsList.appendChild(li);
