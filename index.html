@@ -77,10 +77,10 @@
   <body class="bg-black">
     <div id="root">
       <div class="bg-black">
-        <main class="flex min-h-screen flex-col text-white p-8 md:p-16 lg:p-24 max-w-3xl mx-auto">
+        <main class="flex min-h-screen flex-col text-white p-8 md:p-16 lg:p-24 max-w-3xl mx-auto decorated-shell">
           <div class="mt-10 md:mt-0 mb-10 flex sm:flex-row items-center gap-5 rounded-md justify-between">
             <div class="flex flex-row gap-5 items-center">
-              <div class="overflow-hidden flex items-center justify-center w-16 sm:w-20 rounded-full"><img alt="Profile Photo" class="object-cover w-full h-full" src="./assets/avatar.jpg" /></div>
+              <div class="overflow-hidden flex items-center justify-center w-16 sm:w-20 rounded-full glow-ring"><img alt="Profile Photo" class="object-cover w-full h-full" src="./assets/avatar.jpg" /></div>
               <div class="scale-95 flex flex-col"><span class="font-sans font-semibold text-2xl sm:text-4xl">Saksham</span><span class="font-mono text-zinc-500 leading-relaxed tracking-normal text-sm sm:text-base">@OshekharO</span></div>
             </div>
             <div class="flex flex-row items-center gap-2 sm:gap-4 scale-75 sm:scale-90">
@@ -106,6 +106,16 @@
                   ></path>
                 </svg>
               </a>
+              <a
+                href="./Saksham_Shekher.pdf"
+                aria-label="Download Resume"
+                class="inline-flex items-center justify-center rounded-md text-xs font-semibold whitespace-nowrap shrink-0 gap-2 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] transition-[color,box-shadow] overflow-hidden border border-emerald-200/50 text-white px-3 py-2 cta-button"
+              >
+                <span>Resume</span>
+                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium" focusable="false" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M5 20h14v-2H5v2zm7-18-5.5 5.5 1.42 1.42L11 6.83V16h2V6.83l3.08 3.09 1.42-1.42L12 2z"></path>
+                </svg>
+              </a>
             </div>
           </div>
           <section id="about">
@@ -119,7 +129,7 @@
           <section id="Projects">
             <div class="text-gray-400 leading-relaxed tracking-wide font-mono text-xs sm:text-sm">
               <h1 class="font-bold text-xl sm:text-2xl text-white mb-4">Projects</h1>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://github.com/OshekharO/Web-Indexer" target="_blank" rel="noopener noreferrer"><h3 class="font-bold text-lg">Web Indexer</h3></a>
                   <div class="flex gap-2">
@@ -148,7 +158,7 @@
                   </span>
                 </div>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://github.com/OshekharO/Neubrutalism" target="_blank" rel="noopener noreferrer"><h3 class="font-bold text-lg">Neubrutalism CSS</h3></a>
                   <div class="flex gap-2">
@@ -165,7 +175,7 @@
                   </span>
                 </div>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://github.com/OshekharO/OmniScrape" target="_blank" rel="noopener noreferrer"><h3 class="font-bold text-lg">OmniScrape</h3></a>
                   <div class="flex gap-2">
@@ -200,7 +210,7 @@
                   </span>
                 </div>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://github.com/OshekharO/Cloudflare-Workers-Blog" target="_blank" rel="noopener noreferrer"><h3 class="font-bold text-lg">CF Workers Blog</h3></a>
                   <div class="flex gap-2">
@@ -229,7 +239,7 @@
                   </span>
                 </div>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://github.com/OshekharO/GPT-AI" target="_blank" rel="noopener noreferrer"><h3 class="font-bold text-lg">GPT AI</h3></a>
                   <div class="flex gap-2">
@@ -343,7 +353,7 @@
           <section id="Blogs">
             <div class="text-gray-400 leading-relaxed tracking-wide font-mono text-xs sm:text-sm">
               <h1 class="font-bold text-xl sm:text-2xl text-white mb-4">Blogs</h1>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://www.oneindia.eu.org/2025/01/neubrutalism-bold-revival-of-raw.html?m=1" target="_blank" rel="noopener noreferrer">
                     <h3 class="font-bold text-lg">The Bold Revival of Raw Aesthetics in Modern Design</h3>
@@ -356,7 +366,7 @@
                 </div>
                 <p class="text-gray-400 mb-3">One of the most striking and polarizing movements to emerge in recent years is Neubrutalism.</p>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://www.oneindia.eu.org/2025/01/mastering-art-of-self-introduction.html?m=1" target="_blank" rel="noopener noreferrer">
                     <h3 class="font-bold text-lg">Mastering the Art of Self-Introduction</h3>
@@ -371,7 +381,7 @@
                   Your Gateway to Interview Success
                 </p>
               </div>
-              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white">
+              <div class="mb-6 p-8 border border-zinc-800 hover:border-emerald-200 transition-all duration-500 hover:text-emerald-200 text-white frosted-card">
                 <div class="flex justify-between items-start mb-2">
                   <a href="https://www.oneindia.eu.org/2025/01/comprehensive-guide-to-finding-job.html?m=1" target="_blank" rel="noopener noreferrer">
                     <h3 class="font-bold text-lg">Guide to Finding a Job in India</h3>
