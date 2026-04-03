@@ -19,14 +19,10 @@ Saksham Shekher's personal portfolio — a minimalist, dark-themed static site b
 - **Papers** — Research and technical writing
 - **Contact** — GitHub, LinkedIn, and Email links
 
-## Contact
-
-For any support, reach out via [@OshekherO](https://t.me/OshekherO) on Telegram.
-
 ## License
 
 This project is **free to use** and does not contain any license.
 
 ---
-<h4 align='center'>© 2026 ツ ѕнєкнєя</h4>
+<h4 align='center'>© 2026 ツ OshekharO</h4>
 
