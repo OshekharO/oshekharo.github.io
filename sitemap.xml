@@ -1,38 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://saksham.thedev.id/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Basic-Accounting/</loc>
-  <lastmod>2025-03-01T05:15:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Reverse-Engineering/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Link-Crawler/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Vulnerability-Scanner/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Social-Search/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://saksham.thedev.id/Docker-On-Android/</loc>
-  <lastmod>2025-02-20T05:15:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://saksham.thedev.id/</loc>
+    <lastmod>2026-03-30T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://saksham.thedev.id/paper/ai-cybersecurity-identity-threats-2026.html</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
