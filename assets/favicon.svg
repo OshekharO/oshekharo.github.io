@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#0B0D0C"/>
+  <rect x="3" y="3" width="26" height="26" rx="4" fill="#101412" stroke="#242C27" stroke-width="0.5"/>
+  <!-- Terminal dots -->
+  <circle cx="7" cy="7" r="2.5" fill="#FF5F57"/>
+  <circle cx="14" cy="7" r="2.5" fill="#FEBC2E"/>
+  <circle cx="21" cy="7" r="2.5" fill="#28CA42"/>
+  <!-- Prompt -->
+  <text x="6" y="17.5" font-family="monospace" font-size="7" font-weight="500" fill="#A3D977">$</text>
+  <text x="10" y="17.5" font-family="monospace" font-size="7" fill="#9AA59C">whoami</text>
+  <!-- Name -->
+  <text x="6" y="23.5" font-family="system-ui, sans-serif" font-size="6.5" font-weight="600" fill="#E6EAE6">OSHEKHARO</text>
+  <!-- Cursor -->
+  <rect x="24.5" y="15.5" width="3" height="8" fill="#A3D977" opacity="0.8"/>
+</svg>
